@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]" parallel="tests">
+  <test thread-count="2" name="firfox(failed)(failed)(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.Vtiger.CampainsTest.CreateCampaignWithProduct">
+        <methods>
+          <include name="beforeSuiteTest"/>
+          <include name="afterMethodTest"/>
+          <include name="aftersuiteTest"/>
+          <include name="beforeMethodTest"/>
+          <include name="afterClassTest"/>
+          <include name="beforeClassTest"/>
+          <include name="createCampaignWithProduct"/>
+        </methods>
+      </class> <!-- com.Vtiger.CampainsTest.CreateCampaignWithProduct -->
+    </classes>
+  </test> <!-- firfox(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

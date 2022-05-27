@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" ignored="4" total="8" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2573" started-at="2022-05-24T05:24:40 PDT" finished-at="2022-05-24T05:24:42 PDT">
+    <groups>
+      <group name="regression">
+        <method signature="CreateContactWithOrganizationTest.createContactWithOrganizationTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactWithOrganizationTest@1b5bc39d]" name="createContactWithOrganizationTest" class="com.Vtiger.ContactsTest.CreateContactWithOrganizationTest"/>
+        <method signature="CreateContactWithOrganizationTest.createContactWithOrganizationTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactWithOrganizationTest@7072bc39]" name="createContactWithOrganizationTest" class="com.Vtiger.ContactsTest.CreateContactWithOrganizationTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="CreateContactsTest.createContactsTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactsTest@4108fa66]" name="createContactsTest" class="com.Vtiger.ContactsTest.CreateContactsTest"/>
+        <method signature="CreateContactsTest.createContactsTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactsTest@5149f008]" name="createContactsTest" class="com.Vtiger.ContactsTest.CreateContactsTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test1" duration-ms="1987" started-at="2022-05-24T05:24:40 PDT" finished-at="2022-05-24T05:24:42 PDT">
+      <class name="com.Vtiger.ContactsTest.CreateContactsTest">
+        <test-method status="FAIL" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.Vtiger.ContactsTest.CreateContactsTest@4108fa66]" name="beforeClassTest" is-config="true" duration-ms="-1653395080362" started-at="2022-05-24T05:24:40 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method status="SKIP" signature="beforeMethodTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactsTest@4108fa66]" name="beforeMethodTest" is-config="true" duration-ms="-1653395081855" started-at="2022-05-24T05:24:41 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method status="SKIP" signature="createContactsTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactsTest@4108fa66]" name="createContactsTest" duration-ms="0" started-at="2022-05-24T05:24:41 PDT" finished-at="2022-05-24T05:24:41 PDT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactsTest -->
+        <test-method status="SKIP" signature="afterMethodTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactsTest@4108fa66]" name="afterMethodTest" is-config="true" duration-ms="-1653395082017" started-at="2022-05-24T05:24:42 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method status="SKIP" signature="afterClassTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactsTest@4108fa66]" name="afterClassTest" is-config="true" duration-ms="-1653395082035" started-at="2022-05-24T05:24:42 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.Vtiger.ContactsTest.CreateContactsTest -->
+      <class name="com.Vtiger.ContactsTest.CreateContactWithOrganizationTest">
+        <test-method status="FAIL" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.Vtiger.ContactsTest.CreateContactWithOrganizationTest@1b5bc39d]" name="beforeClassTest" is-config="true" duration-ms="-1653395082050" started-at="2022-05-24T05:24:42 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method status="SKIP" signature="beforeMethodTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactWithOrganizationTest@1b5bc39d]" name="beforeMethodTest" is-config="true" duration-ms="-1653395082077" started-at="2022-05-24T05:24:42 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method status="SKIP" signature="createContactWithOrganizationTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactWithOrganizationTest@1b5bc39d]" name="createContactWithOrganizationTest" duration-ms="0" started-at="2022-05-24T05:24:42 PDT" finished-at="2022-05-24T05:24:42 PDT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrganizationTest -->
+        <test-method status="SKIP" signature="afterMethodTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactWithOrganizationTest@1b5bc39d]" name="afterMethodTest" is-config="true" duration-ms="-1653395082116" started-at="2022-05-24T05:24:42 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method status="SKIP" signature="afterClassTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactWithOrganizationTest@1b5bc39d]" name="afterClassTest" is-config="true" duration-ms="-1653395082138" started-at="2022-05-24T05:24:42 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.Vtiger.ContactsTest.CreateContactWithOrganizationTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="243" started-at="2022-05-24T05:24:42 PDT" finished-at="2022-05-24T05:24:42 PDT">
+      <class name="com.Vtiger.ContactsTest.CreateContactsTest">
+        <test-method status="PASS" signature="beforeSuiteTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactsTest@5149f008]" name="beforeSuiteTest" is-config="true" duration-ms="8496" started-at="2022-05-24T05:24:31 PDT" finished-at="2022-05-24T05:24:40 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteTest -->
+        <test-method status="FAIL" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.Vtiger.ContactsTest.CreateContactsTest@5149f008]" name="beforeClassTest" is-config="true" duration-ms="-1653395082500" started-at="2022-05-24T05:24:42 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method status="SKIP" signature="beforeMethodTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactsTest@5149f008]" name="beforeMethodTest" is-config="true" duration-ms="-1653395082537" started-at="2022-05-24T05:24:42 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method status="SKIP" signature="createContactsTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactsTest@5149f008]" name="createContactsTest" duration-ms="0" started-at="2022-05-24T05:24:42 PDT" finished-at="2022-05-24T05:24:42 PDT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactsTest -->
+        <test-method status="SKIP" signature="afterMethodTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactsTest@5149f008]" name="afterMethodTest" is-config="true" duration-ms="-1653395082612" started-at="2022-05-24T05:24:42 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method status="SKIP" signature="afterClassTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactsTest@5149f008]" name="afterClassTest" is-config="true" duration-ms="-1653395082639" started-at="2022-05-24T05:24:42 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+        <test-method status="PASS" signature="aftersuiteTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactsTest@5149f008]" name="aftersuiteTest" is-config="true" duration-ms="2" started-at="2022-05-24T05:24:42 PDT" finished-at="2022-05-24T05:24:42 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuiteTest -->
+      </class> <!-- com.Vtiger.ContactsTest.CreateContactsTest -->
+      <class name="com.Vtiger.ContactsTest.CreateContactWithOrganizationTest">
+        <test-method status="FAIL" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.Vtiger.ContactsTest.CreateContactWithOrganizationTest@7072bc39]" name="beforeClassTest" is-config="true" duration-ms="-1653395082647" started-at="2022-05-24T05:24:42 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method status="SKIP" signature="beforeMethodTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactWithOrganizationTest@7072bc39]" name="beforeMethodTest" is-config="true" duration-ms="-1653395082690" started-at="2022-05-24T05:24:42 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method status="SKIP" signature="createContactWithOrganizationTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactWithOrganizationTest@7072bc39]" name="createContactWithOrganizationTest" duration-ms="0" started-at="2022-05-24T05:24:42 PDT" finished-at="2022-05-24T05:24:42 PDT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClassTest but has not been marked @Optional or defined
+in C:\Users\HARISH\workspace\SDET34L1\testng_retry.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrganizationTest -->
+        <test-method status="SKIP" signature="afterMethodTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactWithOrganizationTest@7072bc39]" name="afterMethodTest" is-config="true" duration-ms="-1653395082719" started-at="2022-05-24T05:24:42 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method status="SKIP" signature="afterClassTest()[pri:0, instance:com.Vtiger.ContactsTest.CreateContactWithOrganizationTest@7072bc39]" name="afterClassTest" is-config="true" duration-ms="-1653395082732" started-at="2022-05-24T05:24:42 PDT" finished-at="1969-12-31T16:00:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.Vtiger.ContactsTest.CreateContactWithOrganizationTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
